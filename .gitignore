@@ -1,0 +1,21 @@
+# Virtual environment
+my_gym/
+.venv/
+
+# Secrets
+.env
+
+# Database
+data.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pycache__/
+
+# VS Code
+.vscode/
+
+# pyvenv
+pyvenv.cfg
