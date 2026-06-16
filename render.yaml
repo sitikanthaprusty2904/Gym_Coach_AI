@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: gym-coach-ai
+    runtime: python
+    buildCommand: apt-get install -y libgl1-mesa-glx libglib2.0-0 libgles2 && pip install -r requirements.txt
+    startCommand: streamlit run main.py --server.port=$PORT --server.address=0.0.0.0
