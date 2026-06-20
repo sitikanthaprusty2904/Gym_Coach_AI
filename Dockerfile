@@ -3,6 +3,7 @@ FROM python:3.13-slim
 # System libraries required by mediapipe's PoseLandmarker and opencv-python-headless
 RUN apt-get update && apt-get install -y --no-install-recommends \
     libgles2 \
+    libegl1 \
     libgl1 \
     libglib2.0-0 \
     libsm6 \
