@@ -1,0 +1,30 @@
+# Virtual environment
+my_gym/
+.venv/
+
+# Secrets — never bake into image
+.env
+
+# Database — don't ship local data, let app create fresh on server
+data.db
+
+# Git
+.git/
+.gitignore
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pycache__/
+
+# VS Code
+.vscode/
+
+# pyvenv
+pyvenv.cfg
+
+# Docs / non-runtime files
+README.md
+Procfile
+render.yaml
